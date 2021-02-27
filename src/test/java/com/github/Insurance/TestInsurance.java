@@ -45,6 +45,6 @@ public class TestInsurance {
 	 }
 	  @AfterSuite
 	  public void exit(){
-		  driver.quit();
+		  driver.close();
 	  }
 }
